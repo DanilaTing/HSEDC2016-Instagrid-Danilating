@@ -1,0 +1,88 @@
+.galleryNav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.galleryNav div {
+  /*position: relative;*/
+  width: 20px;
+  height: 20px;
+  margin: 30px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  cursor: pointer;
+  z-index: 1;
+}
+
+.galleryNav .disabled {
+  opacity: 0;
+  cursor: default;
+}
+
+.galleryNav div::before,
+.galleryNav div::after {
+  content: '';
+  position: absolute;
+  background: black;
+  border-radius: 20px;
+}
+
+.galleryNav div::before {
+  width: 5px;
+  height: 20px;
+}
+
+.galleryNav div::after {
+  width: 20px;
+  height: 5px;
+}
+
+#prev {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#next {
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.galleryNav2 {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 1429px;
+  align-items: center;
+}
+
+.galleryNav2 div {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin: 16px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  cursor: pointer;
+  z-index: 0;
+}
+
+.galleryNav2 .disabled {
+  opacity: 0;
+  cursor: default;
+}
+
+.galleryNav2 div::before,
+.galleryNav2 div::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
