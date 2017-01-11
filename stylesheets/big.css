@@ -1,0 +1,36 @@
+.gallery {
+  position: relative;
+  overflow: scroll;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.images {
+  display: flex;
+}
+
+.photoblock {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1242px;
+  height: 828px;
+}
+
+.big {
+  width: 828px;
+  height: 828px;
+}
+
+.small {
+  width: 414px;
+  height: 414px;
+}
+
+@media screen and (max-width: 1460px) {
+  .body {
+    width: 100%
+  }
+}
