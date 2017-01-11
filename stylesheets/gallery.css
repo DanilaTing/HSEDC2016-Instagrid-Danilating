@@ -1,12 +1,16 @@
+/*CSS inserted images*/
+
 .gallery {
-  /*position: relative;*/
+  position: relative;
   /*overflow: hidden;*/
   display: flex;
   align-items: center;
+  /*margin-left: 130px;*/
+  /*margin-top: 100px;*/
+  margin-top: 73px;
 }
 
 .images {
-  margin-top: 100px;
   display: flex;
 }
 
@@ -106,4 +110,69 @@
     padding-right: 10px;
     width: 985px;
   }
+}
+
+/*HTML inserted images*/
+
+/*small size*/
+
+/*.photoblock {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 983px;
+  height: 643px;
+}
+
+.big {
+  width: 643px;
+  height: 643px;
+}
+
+.small {
+  width: 315px;
+  height: 315px;
+}*/
+
+/*big size*/
+
+/*.photoblock {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1242px;
+  height: 828px;
+}
+
+.big {
+  width: 828px;
+  height: 828px;
+}
+
+.small {
+  width: 414px;
+  height: 414px;
+}*/
+
+/*medium size*/
+
+.photoblock {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1032px;
+  height: 688px;
+}
+
+.big {
+  width: 688px;
+  height: 688px;
+}
+
+.small {
+  width: 344px;
+  height: 344px;
 }
