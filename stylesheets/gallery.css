@@ -3,6 +3,7 @@
 .gallery {
   position: relative;
   overflow: scroll;
+  overflow-y: hidden;
   display: flex;
   align-items: center;
   /*margin-left: 130px;*/
