@@ -15,18 +15,30 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 1242px;
-  height: 828px;
+  width: 150vh;
+  height: 100vh;
 }
 
 .big {
-  width: 828px;
-  height: 828px;
+  /*width: 828px;*/
+  height: 100vh;
+  width: 100vh;
 }
 
 .small {
-  width: 414px;
-  height: 414px;
+  /*width: 414px;*/
+  height: 100vh;
+  width: 50vh;
+}
+
+.bigImg {
+  height: 100vh;
+  width: 100vh;
+}
+
+.smallImg {
+  height: 50vh;
+  width: 50vh;
 }
 
 @media screen and (max-width: 1460px) {
