@@ -2,7 +2,7 @@
 
 .gallery {
   position: relative;
-  /*overflow: hidden;*/
+  overflow: scroll;
   display: flex;
   align-items: center;
   /*margin-left: 130px;*/
