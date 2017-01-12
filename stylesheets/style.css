@@ -1,7 +1,8 @@
 @import 'reset.css';
 
 @import 'mainpage.css';
-@import 'menubar.css';
 @import 'gallery.css';
 @import 'navigation.css';
-@import 'footer.css';
+/*@import 'footer.css';*/
+/*@import 'menubar.css';*/
+@import 'info.css';

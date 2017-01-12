@@ -4,6 +4,7 @@
   overflow-y: hidden;
   display: flex;
   align-items: center;
+  width: 100vw;
 }
 
 .images {
@@ -29,6 +30,8 @@
   /*width: 414px;*/
   height: 100vh;
   width: 50vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .bigImg {
