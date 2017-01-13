@@ -6,7 +6,7 @@
 
 body {
   font-family:'PT Sans Caption', sans-serif;
-  min-width: 996px;
+  /*min-width: 996px;*/
   /*background-color: #FAFAFA;*/
 }
 
@@ -14,7 +14,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;;
+  justify-content: center;
   align-items: center;
   /*width: 100vw;*/
   height: 100vh;
