@@ -1,88 +1,66 @@
-.galleryNav {
-  position: fixed;
+nav {
+  position: absolute;
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  align-items: center;
-}
-
-.galleryNav div {
-  /*position: relative;*/
-  width: 20px;
-  height: 20px;
-  margin: 30px;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  cursor: pointer;
   z-index: 1;
+  width: 90vw;
 }
 
-.galleryNav .disabled {
-  opacity: 0;
-  cursor: default;
+/*svg buttons*/
+
+/*.disabled {
+  opacity: 0!important;
+  cursor: default!important;
 }
 
-.galleryNav div::before,
-.galleryNav div::after {
-  content: '';
-  position: absolute;
-  background: black;
-  border-radius: 20px;
+#prev,
+#next {
+  width: 50px;
+  height: 50px;
+  opacity: .2;
+  cursor: pointer;
 }
 
-.galleryNav div::before {
-  width: 5px;
-  height: 20px;
-}
-
-.galleryNav div::after {
-  width: 20px;
-  height: 5px;
+#prev:hover,
+#next:hover {
+  opacity: .8;
 }
 
 #prev {
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+  transform: rotate(180deg);
+}*/
+
+/*css buttons*/
+
+.btn {
+  cursor: pointer;
+  opacity: .4;
 }
 
-#next {
-  -webkit-transform: rotate(135deg);
+.btn:hover {
+  opacity: .8;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border-radius: 50%;
+}
+
+.arrow {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+  margin: 13px;
+}
+
+.prev {
   transform: rotate(135deg);
 }
 
-.galleryNav2 {
-  position: fixed;
-  display: flex;
-  justify-content: space-between;
-  width: 1429px;
-  align-items: center;
-}
-
-.galleryNav2 div {
-  position: relative;
-  width: 30px;
-  height: 30px;
-  margin: 16px;
-  -webkit-transform: rotate(-45deg);
+.next {
   transform: rotate(-45deg);
-  cursor: pointer;
-  z-index: 0;
-}
-
-.galleryNav2 .disabled {
-  opacity: 0;
-  cursor: default;
-}
-
-.galleryNav2 div::before,
-.galleryNav2 div::after {
-  content: '';
-  position: absolute;
-  border-style: solid;
-  border-width: 2px;
-  border-color: black;
-  background-color: rgba(255, 255, 255, 0.2);
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
 }
