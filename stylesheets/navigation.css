@@ -37,6 +37,11 @@ nav {
   opacity: .4;
 }
 
+.disabled {
+  opacity: 0;
+  cursor: default;
+}
+
 .btn:hover {
   opacity: .8;
 }
