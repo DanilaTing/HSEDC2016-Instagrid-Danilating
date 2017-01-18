@@ -6,6 +6,7 @@
   align-items: center;
   width: 120vh;
   height: 60vh;
+  z-index: 1;
 }
 
 .imagesSmall {
